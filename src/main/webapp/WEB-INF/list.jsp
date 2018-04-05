@@ -12,7 +12,7 @@
 <body>
 <h1>Employee List</h1>
 <spring:url value="/Home/index" var="register">
-   <a href="${register}">Register Here</a>
+   <a href="/index">Register Here</a>
    <c:if test="${!empty userList}">
    <table border="2">
    <tr>

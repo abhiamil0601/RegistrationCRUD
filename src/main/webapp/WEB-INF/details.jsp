@@ -7,7 +7,7 @@
 <title>Success</title>
 </head>
 <body>
-<a href="${list}">UserList</a>
+<a href="/Registration/Home/list">UserList</a>
 <c:url var="action" value="/Home/update"/>
 <h3>${msg}</h3>
 <h2>User Details are:</h2>

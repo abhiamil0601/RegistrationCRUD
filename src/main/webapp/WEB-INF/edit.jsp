@@ -12,7 +12,7 @@
 <body>
 <h2>Edit User</h2>
 <spring:url value="/Home/list" var="list"  />
-<a href="${list}">UserList</a>
+<a href="/list">UserList</a>
 <c:url var="action" value="/Home/update"/>
 <form:form method="post" action="${action}" modelAttribute="user">
   <table>
